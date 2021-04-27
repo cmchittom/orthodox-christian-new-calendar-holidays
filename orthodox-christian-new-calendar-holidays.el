@@ -1,5 +1,4 @@
-;;;; orthodox-christian-new-calendar-holidays.el --- feasts for
-;;;; Orthodox Christians who use the Revised Julian calendar
+;;; orthodox-christian-new-calendar-holidays.el --- Feasts for Orthodox Christians who use the Revised Julian calendar
 
 ;;; Copyright (c) 2021 Carson Chittom
 
@@ -53,7 +52,7 @@
   (require 'calendar)
   (require 'holidays))
 
-(defvar holiday-oc-nc--fixed-great-feasts
+(defvar orthodox-christian-new-calendar-holidays--fixed-great-feasts
   '((holiday-fixed  9  8 "Nativity of the Theotokos")
     (holiday-fixed  9 14 "Exaltation of the Cross")
     (holiday-fixed 11 21 "Presentation of the Theotokos")
@@ -64,7 +63,7 @@
     (holiday-fixed  8  6 "Transfiguration")
     (holiday-fixed  8 15 "Dormition of the Theotokos")))
 
-(defvar holiday-oc-nc--paschal-cycle
+(defvar orthodox-christian-new-calendar-holidays--paschal-cycle
   '((holiday-greek-orthodox-easter -77 "Zacchaeus Sunday")
     (holiday-greek-orthodox-easter -70 "Sunday of the Publican and the Pharisee")
     (holiday-greek-orthodox-easter -63 "Sunday of the Prodigal Son")
@@ -76,7 +75,7 @@
     (holiday-greek-orthodox-easter  40 "Ascension")
     (holiday-greek-orthodox-easter  50 "Pentecost")))
 
-(defvar holiday-oc-nc--fasts
+(defvar orthodox-christian-new-calendar-holidays--fasts
   '((holiday-greek-orthodox-easter -48 "Great Lent begins")
     (holiday-greek-orthodox-easter  -9 "Great Lent ends")
     (holiday-fixed 11 15 "Nativity Fast begins")
@@ -88,7 +87,9 @@
 
 
 (defvar holiday-orthodox-christian-new-calendar-holidays
-  (append holiday-oc-nc--fixed-great-feasts holiday-oc-nc--paschal-cycle holiday-oc-nc--fasts))
+  (append orthodox-christian-new-calendar-holidays--fixed-great-feasts
+	  orthodox-christian-new-calendar-holidays--paschal-cycle
+	  orthodox-christian-new-calendar-holidays--fasts))
 
 (provide 'orthodox-christian-new-calendar-holidays)
 
