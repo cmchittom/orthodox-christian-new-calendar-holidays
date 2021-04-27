@@ -4,7 +4,7 @@
 
 ;;; Author: Carson Chittom <carson@wistly.net>
 ;;; URL: https://github.com/cmchittom/orthodox-christian-new-calendar-holidays
-;;; Version: 1.2
+;;; Version: 1.3
 ;;; Keywords: calendar
 
 ;;; This file is free software; you can redistribute it and/or modify
@@ -72,8 +72,8 @@
     (holiday-greek-orthodox-easter  -8 "Lazarus Saturday")
     (holiday-greek-orthodox-easter  -7 "Palm Sunday")
     (holiday-greek-orthodox-easter   0 "PASCHA")
-    (holiday-greek-orthodox-easter  40 "Ascension")
-    (holiday-greek-orthodox-easter  50 "Pentecost")))
+    (holiday-greek-orthodox-easter  39 "Ascension")
+    (holiday-greek-orthodox-easter  49 "Pentecost")))
 
 (defvar orthodox-christian-new-calendar-holidays--fasts
   '((holiday-greek-orthodox-easter -48 "Great Lent begins")
