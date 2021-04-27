@@ -45,7 +45,6 @@
 ;; ;; Or whatever else you don't want included--see holidays.el for details
 ;;
 ;; (setq calendar-holidays (append calendar-holidays holiday-orthodox-christian-new-calendar-holidays))
-;;
 
 
 (eval-when-compile
