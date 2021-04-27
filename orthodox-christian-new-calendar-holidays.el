@@ -1,51 +1,53 @@
 ;;;; orthodox-christian-new-calendar-holidays.el --- feasts for
 ;;;; Orthodox Christians who use the Revised Julian calendar
 
-;; Copyright (c) 2021 Carson Chittom
+;;; Copyright (c) 2021 Carson Chittom
 
-;; Author: Carson Chittom <carson@wistly.net>
-;; URL: https://github.com/cmchittom/orthodox-christian-new-calendar-holidays
-;; Version: 1.0
-;; Keywords: calendar
+;;; Author: Carson Chittom <carson@wistly.net>
+;;; URL: https://github.com/cmchittom/orthodox-christian-new-calendar-holidays
+;;; Version: 1.0
+;;; Keywords: calendar
 
-;; This file is free software; you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation; either version 3, or (at your option)
-;; any later version.
+;;; This file is free software; you can redistribute it and/or modify
+;;; it under the terms of the GNU General Public License as published by
+;;; the Free Software Foundation; either version 3, or (at your option)
+;;; any later version.
 
-;; This program is distributed in the hope that it will be useful,
-;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-;; GNU General Public License for more details.
+;;; This program is distributed in the hope that it will be useful,
+;;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;;; GNU General Public License for more details.
 
-;; For a full copy of the GNU General Public License
-;; see <http://www.gnu.org/licenses/>.
+;;; For a full copy of the GNU General Public License
+;;; see <http://www.gnu.org/licenses/>.
 
-;; Commentary:
-;;
-;; Although the Orthodox Churches of Jerusalem, Russia, Serbia,
-;; Ukraine, and Georgia continue to use the Julian calendar both for
-;; the Paschal cycle and for fixed feasts, the other Orthodox Churches
-;; follow the Revised Julian calendar for fixed feasts but use the
-;; original Julian Paschalion. So *strictly* speaking, the below is
-;; partly wrong, but since the Revised Julian is exactly the same as
-;; the Gregorian until 2800 AD (when a difference in the leap year
-;; rule will make them diverge) I think that's a problem for someone
-;; else on another day.
-;;
-;; This is all fairly trivial, but putting it in a separate file gets
-;; it out of my ~/.emacs and makes it available if anyone else finds
-;; it useful. 
+;;; Commentary:
+;;;
+;;; Although the Orthodox Churches of Jerusalem, Russia, Serbia,
+;;; Ukraine, and Georgia continue to use the Julian calendar both for
+;;; the Paschal cycle and for fixed feasts, the other Orthodox Churches
+;;; follow the Revised Julian calendar for fixed feasts but use the
+;;; original Julian Paschalion.  So *strictly* speaking, the below is
+;;; partly wrong, but since the Revised Julian is exactly the same as
+;;; the Gregorian until 2800 AD (when a difference in the leap year
+;;; rule will make them diverge) I think that's a problem for someone
+;;; else on another day.
+;;;
+;;; This is all fairly trivial, but putting it in a separate file gets
+;;; it out of my ~/.emacs and makes it available if anyone else finds
+;;; it useful.
 
-;; Usage:
-;;
-;; (setq holiday-bahai-holidays nil
-;;       holiday-christian-holidays nil
-;;       holiday-islamic-holidays nil)
-;; ;; Or whatever else you don't want included--see holidays.el for details
-;;
-;; (setq calendar-holidays (append calendar-holidays holiday-orthodox-christian-new-calendar-holidays))
+;;; Usage:
+;;;
+;;; (setq holiday-bahai-holidays nil
+;;;       holiday-christian-holidays nil
+;;;       holiday-islamic-holidays nil)
+;;; ;; Or whatever else you don't want included--see holidays.el for details
+;;;
+;;; (setq calendar-holidays (append calendar-holidays holiday-orthodox-christian-new-calendar-holidays))
 
+
+;;; Code:
 
 (eval-when-compile
   (require 'calendar)
@@ -90,4 +92,4 @@
 
 (provide 'orthodox-christian-new-calendar-holidays)
 
-    
+;;; orthodox-christian-new-calendar-holidays.el ends here
