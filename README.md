@@ -17,9 +17,18 @@ it out of my `~/.emacs` and makes it available if anyone else finds
 it useful. 
 
 ## Usage
+Just do something like
+```
+(require 'orthodox-christian-new-calendar-holidays)
+(setq holiday-other-holidays (append holiday-other-holidays holiday-orthodox-christian-new-calendar-holidays))
+```
+
+You may also want to clear out any other holidays you don't want included, with
+
 ```
 (setq holiday-bahai-holidays nil
       holiday-christian-holidays nil
-      holiday-islamic-holidays nil) ;; Or whatever else you don't want included
-(setq calendar-holidays (append calendar-holidays holiday-orthodox-christian-new-calendar-holidays))
+      holiday-islamic-holidays nil) ;; Or whatever else
 ```
+
+See the Emacs manual for further details.
