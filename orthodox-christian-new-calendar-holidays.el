@@ -1,4 +1,4 @@
-;;; orthodox-christian-new-calendar-holidays.el --- Feasts for Orthodox Christians who use the Revised Julian calendar
+;;; orthodox-christian-new-calendar-holidays.el --- Feasts (NS)
 
 ;;; Copyright (c) 2021 Carson Chittom
 
@@ -43,7 +43,8 @@
 ;;;       holiday-islamic-holidays nil)
 ;;; ;; Or whatever else you don't want included--see holidays.el for details
 ;;;
-;;; (setq calendar-holidays (append calendar-holidays holiday-orthodox-christian-new-calendar-holidays))
+;;; (setq calendar-holidays
+;;;       (append calendar-holidays orthodox-christian-new-calendar-holidays))
 
 
 ;;; Code:
@@ -86,7 +87,7 @@
     (holiday-fixed  8 14 "Dormition Fast ends")))
 
 
-(defvar holiday-orthodox-christian-new-calendar-holidays
+(defvar orthodox-christian-new-calendar-holidays
   (append orthodox-christian-new-calendar-holidays--fixed-great-feasts
 	  orthodox-christian-new-calendar-holidays--paschal-cycle
 	  orthodox-christian-new-calendar-holidays--fasts))
