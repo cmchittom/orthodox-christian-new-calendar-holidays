@@ -32,3 +32,5 @@ You may also want to clear out any other holidays you don't want included, with
 ```
 
 See the Emacs manual for further details.
+
+[![MELPA](https://melpa.org/packages/orthodox-christian-new-calendar-holidays-badge.svg)](https://melpa.org/#/orthodox-christian-new-calendar-holidays)
