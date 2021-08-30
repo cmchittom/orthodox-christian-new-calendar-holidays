@@ -20,7 +20,7 @@ it useful.
 Just do something like
 ```
 (require 'orthodox-christian-new-calendar-holidays)
-(setq holiday-other-holidays (append holiday-other-holidays holiday-orthodox-christian-new-calendar-holidays))
+(setq holiday-other-holidays (append holiday-other-holidays orthodox-christian-new-calendar-holidays))
 ```
 
 You may also want to clear out any other holidays you don't want included, with
